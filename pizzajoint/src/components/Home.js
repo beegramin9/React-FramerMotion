@@ -46,7 +46,7 @@ const Home = () => {
           Create Your Pizza
         </motion.button>
       </Link>
-      <Loader />
+      <Loader/>
     </motion.div>
   )
 }
