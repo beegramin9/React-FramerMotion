@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/React-NetNinja-FramerMotion/precache-manifest.89d2f28911c8dc92003d9dae99f2fde9.js"
+  "/React-NetNinja-FramerMotion/precache-manifest.14c96c4eb8703c2d45cde6e78e66f1d1.js"
 );
 
 self.addEventListener('message', (event) => {
