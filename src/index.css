@@ -16,12 +16,11 @@ h3,
 p,
 button,
 a,
-span,
 div {
   margin: 0;
   padding: 0;
   color: white;
-  font-family: "Quicksand", Tahoma;
+  font-family: "Quicksand";
   letter-spacing: 2px;
   list-style-type: none;
   text-decoration: none;
