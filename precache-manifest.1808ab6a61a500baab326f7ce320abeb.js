@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e942425250950754e9a1b15b99a4780c",
+    "revision": "7c31d6c56d7c433b7700e009f2222398",
     "url": "/React-NetNinja-FramerMotion/index.html"
   },
   {
-    "revision": "e708565c04e1cbddb5b4",
-    "url": "/React-NetNinja-FramerMotion/static/css/main.eec558ff.chunk.css"
+    "revision": "645d133472768057c6b2",
+    "url": "/React-NetNinja-FramerMotion/static/css/main.c3e8a768.chunk.css"
   },
   {
     "revision": "d10c6d5982892a866f3f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-NetNinja-FramerMotion/static/js/2.9e8f4791.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e708565c04e1cbddb5b4",
+    "revision": "645d133472768057c6b2",
     "url": "/React-NetNinja-FramerMotion/static/js/main.d0f576bc.chunk.js"
   },
   {
