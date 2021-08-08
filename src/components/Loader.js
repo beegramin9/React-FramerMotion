@@ -43,6 +43,7 @@ const buttonVariants = {
 }
 
 const Loader = () => {
+   //* useState와 비슷함, animation toggling
   const [animation, cycleAnimation] = useCycle("animationOne", "animationTwo");
 
   return (
