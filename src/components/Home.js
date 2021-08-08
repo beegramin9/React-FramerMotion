@@ -19,6 +19,15 @@ const buttonVariants = {
       yoyo: 5
     }
   },
+  tap: {
+    scale: 1.1,
+    textShadow: "0px 0px 8px rgb(255,255,255)",
+    boxShadow: "0px 0px 8px rgb(255,255,255)",
+    transition: {
+      duration: 0.3,
+      yoyo: 5
+    }
+  }
 }
 
 const containerVariants = {
@@ -56,6 +65,7 @@ const Home = () => {
           // 2. propagate variants down through the DOM, BUT JUST THE NAME OF VARIANCE, NOT THE CONTENT
           // initial, animate, exit 한번 더 쓸 필요 없다
           whileHover="hover"
+          whileTap="tap"
         >
           Create Your Pizza
         </motion.button>
