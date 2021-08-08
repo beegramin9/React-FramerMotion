@@ -27,15 +27,6 @@ const buttonVariants = {
       duration: 0.3,
       yoyo: Infinity
     }
-  },
-  tab: {
-    scale: 1.1,
-    textShadow: "0px 0px 8px rgb(255,255,255)",
-    boxShadow: "0px 0px 8px rgb(255,255,255)",
-    transition: {
-      duration: 0.3,
-      yoyo: Infinity
-    }
   }
 }
 
@@ -56,7 +47,6 @@ const Toppings = ({ addTopping, pizza }) => {
           return (
             <motion.li key={topping} onClick={() => addTopping(topping)}
               whileHover={{ scale: 1.3, originX: 0, color: '#f8e112' }}
-              whileTab={{ scale: 1.3, originX: 0, color: '#f8e112' }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
               <span className={spanClass}>{ topping }</span>
@@ -68,7 +58,6 @@ const Toppings = ({ addTopping, pizza }) => {
         <motion.button
           variants={buttonVariants}
           whileHover="hover"
-          whileTab="tab"
         >
           Order
         </motion.button>
