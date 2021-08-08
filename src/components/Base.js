@@ -38,7 +38,7 @@ const buttonVariants = {
       yoyo: Infinity
     }
   },
-  tab: {
+  tap: {
     scale: 1.1,
     textShadow: "0px 0px 8px rgb(255,255,255)",
     boxShadow: "0px 0px 8px rgb(255,255,255)",
@@ -83,7 +83,7 @@ const Base = ({ addBase, pizza }) => {
             <motion.button
               variants={buttonVariants}
                whileHover="hover"
-               whileTab="tab"
+               whileTap="tap"
             >
               Next
             </motion.button>

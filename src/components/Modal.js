@@ -30,8 +30,14 @@ const Modal = ({ showModal }) => {
             variants={modal}
           >
             <p>Want to make another Pizza?</p>
-            <Link to="/">
-              <button>Start Again</button>
+            <Link to="/"
+            >
+              <motion.button
+              whileHover={{ scale: 1.1, color: '#ff2994' }}
+              whileTap={{ scale: 1.1, color: '#ff2994' }}
+              >
+                Start Again
+              </motion.button>
             </Link>
           </motion.div>
         </motion.div>
