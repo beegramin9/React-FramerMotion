@@ -2,12 +2,22 @@
 @font-face {
   font-family: "Quicksand";
   src: url("/Quicksand-Light.woff2") format("woff2"),
-    url("/Quicksand-Light.woff") format("woff");
+    url("/Quicksand-Light.woff") format("woff"),
+    url("http://hsaraid.pointblankstaging.com/wp-content/themes/x/fonts/Gotham-Bold.ttf")
+      format("truetype"),
+    url("http://hsaraid.pointblankstaging.com/wp-content/themes/x/fonts/Gotham-Bold.ttf")
+      format("embedded-opentype"),
+    url("http://hsaraid.pointblankstaging.com/wp-content/themes/x/fonts/Gotham-Bold.ttf#iefix")
+      format("embedded-opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 /* reset & common styles */
+span {
+  font-family: "Quicksand";
+}
+
 body,
 ul,
 h1,
